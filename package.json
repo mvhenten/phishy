@@ -1,0 +1,33 @@
+{
+  "name": "phishy",
+  "version": "0.0.1",
+  "description": "Check the phishy equality of a string",
+  "main": "phishy.js",
+  "dependencies": {
+    "fast-levenshtein": "^2.0.6"
+  },
+  "devDependencies": {
+    "tape": "^4.6.3"
+  },
+  "scripts": {
+    "test": "tape phishy_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvhenten/phishy.git"
+  },
+  "keywords": [
+    "phishing",
+    "scam",
+    "levenstein",
+    "levenshtein",
+    "string",
+    "distance"
+  ],
+  "author": "Matthijs van Henten",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mvhenten/phishy/issues"
+  },
+  "homepage": "https://github.com/mvhenten/phishy#readme"
+}
